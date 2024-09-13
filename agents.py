@@ -247,7 +247,7 @@ class CosmoFood:
             generation += 1
         print("Generation: {}\tString: {}\tFitness: {}".format(generation,",".join(population[0].chromosome), population[0].fitness))
         print("Ingredients: ", get_all_of_names_ingredients(population[0].chromosome))
-        llm_res = GeminiAgent(population[0].chromosome,gemini_api_key).run()
+        llm_res = GeminiAgent(population[0].chromosome,self.gemini_api_key).run()
         return population[0].chromosome, llm_res
         
   
