@@ -1,0 +1,10 @@
+pandas
+requests
+fastapi
+nest-asyncio
+pyngrok
+uvicorn
+flask-ngrok
+ngrok
+flask 
+python-multipart
