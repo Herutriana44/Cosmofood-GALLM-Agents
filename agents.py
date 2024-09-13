@@ -172,6 +172,7 @@ class CosmoFood:
         self.gula = gula
         self.POPULATION_SIZE = POPULATION_SIZE
         self.n_ingredients = n_ingredients_
+	self.gemini_api_key = gemini_api_key
 
         # Load data (asumsikan sudah dalam format yang benar)
         self.nutrient_df = pd.read_excel("clean_nutrient.xlsx")
